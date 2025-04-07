@@ -1,0 +1,16 @@
+GET http://localhost:8000/ping
+Content-Type: application/json
+
+GET http://localhost:8000/products
+Content-Type: application/json
+
+POST http://localhost:8000/product
+Content-Type: application/json
+
+{
+"name": "Coca-cola",
+"price": 5.55
+}
+
+GET http://localhost:8000/product/1
+Content-Type: application/json
